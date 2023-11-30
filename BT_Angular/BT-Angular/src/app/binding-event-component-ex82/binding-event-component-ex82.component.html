@@ -1,0 +1,17 @@
+<p>binding-event works!</p>
+<button (click)="onClick($event)">Click Me</button>
+Name: <input type="text" #myName>
+<button (click)="onSubmit(myName.value)">Submit</button>
+<br>
+<form>
+    A: <input type="number"  #soa>
+    <br>
+    B: <input type="number"  #sob>
+    <br>
+    <div #result>Result: {{resultNUm}}</div>
+    <button type="button" (click)="acongb(soa.value, sob.value)">+</button>
+    <button type="button" (click)="atrub(soa.value, sob.value)">-</button>
+    <button type="button" (click)="anhanb(soa.value, sob.value)">x</button>
+    <button type="button" (click)="achiab(soa.value, sob.value)">/</button>
+    <button type="reset" (click)="reset(soa.value, sob.value)">Reset</button>
+</form>

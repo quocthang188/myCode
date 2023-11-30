@@ -1,0 +1,9 @@
+[{"ProductID" : "P1",
+                      "ProductName": "Coca",
+                      "UnitPrice": 10000},
+                      {"ProductID" : "P2",
+                      "ProductName": "Pepsi",
+                      "UnitPrice": 12000},
+                      {"ProductID" : "P3",
+                      "ProductName": "Sting",
+                      "UnitPrice": 15000}]

@@ -1,0 +1,15 @@
+.myStyle1{
+    color: red;
+    font-size: 30px;
+}
+.myStyle2{
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.myStyle3{
+    font-weight: bolder;
+}
+.myStyle4{
+    background-color: salmon;
+}

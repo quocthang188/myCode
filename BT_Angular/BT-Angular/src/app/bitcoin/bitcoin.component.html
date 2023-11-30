@@ -1,0 +1,17 @@
+<div *ngIf="data">
+  <h3>Time:</h3>
+  <p><strong>Updated:</strong> {{ data.time.updated }}</p>
+  <p><strong>Updated ISO:</strong> {{ data.time.updatedISO }}</p>
+  <p><strong>Updated UK:</strong> {{ data.time.updateduk }}</p>
+
+  <h3>BPI Items:</h3>
+  <ul>
+    <li *ngFor="let key of">
+      <p><strong>Currency Code:</strong> {{ data.bpi[key].code }}</p>
+      <p><strong>Currency Symbol:</strong> {{ data.bpi[key].symbol }}</p>
+      <p><strong>Rate:</strong> {{ data.bpi[key].rate }}</p>
+      <p><strong>Description:</strong> {{ data.bpi[key].description }}</p>
+      <p><strong>Rate Float:</strong> {{ data.bpi[key].rate_float }}</p>
+    </li>
+  </ul>
+</div>
